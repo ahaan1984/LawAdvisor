@@ -22,7 +22,7 @@ const Footer = () => {
         linkedin: "https://www.linkedin.com/in/milind-mishra-2a3b23257/",
       },
       {
-        name: "Vidhi",
+        name: "Ahaan",
         twitter: "https://x.com/_vidhisingh?t=4tlz6w2QSacEUv6tLI1JlA&s=09",
         github: "https://github.com/vidhisingh14",
         linkedin: "https://www.linkedin.com/in/vidhi-singh-75963024a",
