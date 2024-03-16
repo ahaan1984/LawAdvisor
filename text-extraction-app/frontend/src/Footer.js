@@ -37,7 +37,7 @@ const Footer = () => {
           <h3 className="text-xl font-bold pb-1">Source Code</h3>
           <div>
             <a
-              href="https://github.com/Varun-2538/RJPOLICE_HACK_1212_Gallants_4"
+              href="https://github.com/ahaan1984/LawAdvisor"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300 w-3/4 m-auto"

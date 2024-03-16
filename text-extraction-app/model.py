@@ -1,9 +1,9 @@
 # Import necessary libraries
-from huggingface_hub import InferenceClient  # For loading and using text generation models
+from huggingface_hub import InferenceClient  # For loading of fine-tuned models
 import os
 import re
 
-# Load the text generation model from Hugging Face Hub
+# Load the finetuned model from Hugging Face Hub
 text_generation_client = InferenceClient("mistralai/Mixtral-8x7B-Instruct-v0.1")
 
 # Define a function to format prompts for the model
@@ -20,9 +20,7 @@ def format_prompt_for_model(user_prompt):
 
     system_context_prompt = (
         "You are a Lawyer with extreme knowledge in the Indian Penal Code (IPC) Sections and Code of Criminal Procedure (CRPC)."
-        " Using the extracted text, give 4 applicable IPC Section [Starting from 100] and 2 CRPC Sections"
-        " while stating the reason for your selection. Also give a float percentage between the range of 0 - 100 (%) of how truthful the extracted text is. "
-        " Also give two cross-referencing based questions to further investigate the case."
+        " Using the extracted text, give 4 applicable IPC Section [Starting from 100] and 2 CRPC Sections while stating the reason for your selection."
         "End with 'I believe you should do further investigate the case to cross-check my suggestions.'"
     )
     combined_prompt = f"<s>[SYS] {system_context_prompt} [/SYS]\n[INST] {user_prompt} [/INST]"
@@ -70,7 +68,7 @@ def generate_legal_suggestions(
     # Format the prompt using the prompter function
     model_ready_prompt = format_prompt_for_model(prompt)
 
-    # Generate text using the model's text_generation method
+    # Generate response using the model's text_generation method
     generated_text_stream = text_generation_client.text_generation(
         model_ready_prompt, **generation_parameters, stream=True, details=True, return_full_text=True
     )
