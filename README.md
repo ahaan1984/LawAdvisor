@@ -1,7 +1,7 @@
 # LawAdvisor: An AI-based FIR Analysis Project
 
 LawAdvisor is an Automated Legal Insight Project that uses Mistral AI, an open source Large Language Model (LLM) finetuned on IPC & CrPC Datasets, to analyze First Information Reports (FIRs) and generate insightful reports. The application also allows users to search the Crime and Criminal Tracking Network and Systems (CCTNS) database for relevant information.
-## Presentation Link: [Presentation](https://tome.app/abhinavs-workspace-d2a/team-gallants-presentation-clrg93wpo3dqkmt62zss5ls4c)
+## Presentation Link: [Presentation](https://tome.app/abhinavs-workspace-d2a/lawadvisor-team-gallants-presentation-clttzb0cj0152o95yv7950yly)
 ## Features
 
 - Upload PDF or image files of FIRs and extract the text using optical character recognition (OCR) with the help of Tesseract.
@@ -14,10 +14,10 @@ LawAdvisor is an Automated Legal Insight Project that uses Mistral AI, an open s
 
 To run the project locally, follow these steps:
 
-- Clone the repository using `git clone https://github.com/Varun-2538/RJPOLICE_HACK_1212_Gallants_4`
+- Clone the repository using `git clone https://github.com/ahaan1984/LawAdvisor.git`
 - Navigate to the `text-extraction-app` directory and install the required Python packages using `pip install -r requirements.txt`
 - Navigate to the `frontend` directory and install the required Node.js packages using `npm install`
--  Navigate to the `backend` directory and install the required Node.js packages using `npm install`
+- Navigate to the `backend` directory and install the required Node.js packages using `npm install`
 - Verify that all the installations have been completed successfully.
 - Navigate to the `backend` directory and start the Node.js server using `node server.js`
 - Navigate to the `text-extraction-app` directory and start the Python app using `python app.py`
