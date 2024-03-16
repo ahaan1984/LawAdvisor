@@ -8,8 +8,8 @@ const SupportCenterSection = () => {
         <div className="flex items-center">
           <div className="flex-1 ml-4">
             <p className="text-xl mb-4 mr-4">
-              Our project, conceived and developed for the Rajasthan Police
-              Hackathon, stands as a testament to our commitment to public
+              Our project, conceived and developed for the CAD 2.0
+              Hack, stands as a testament to our commitment to public
               safety and judicial efficiency.
             </p>
             <p className="text-xl mr-4">
