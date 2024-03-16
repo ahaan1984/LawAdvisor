@@ -20,15 +20,16 @@ const SupportCenterSection = () => {
           </div>
           <div className="flex-1">
             <iframe
-              className="rounded-md shadow-x1"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/-RQq6KtFvuI" // Use the correct embed URL format
-              title="Working of LawAdvisor"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+  className="rounded-md shadow-x1"
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/FhnC0royN_A"
+  title="Working of LawAdvisor"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
           </div>
         </div>
       </div>
